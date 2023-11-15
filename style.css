@@ -1,0 +1,228 @@
+body {
+    background-color: #f4d1e6;
+}
+
+#header {
+    color: rgb(116, 8, 5);
+    text-align: center;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#header2{
+     margin-top: 90px;
+     text-align: center;
+     color:rgb(116, 8, 5);
+     background-image: linear-gradient(to right, #f4d1e6 , #964b4b4b, #f4d1e6);
+}
+
+.front-page{
+  display: flex;
+  flex-direction: column;
+  gap:3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.click-btn {
+    background-color:  rgb(223, 138, 154);
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(135, 32, 21);
+    font-size: 40px;
+    text-decoration: none ;
+    box-shadow: 0px 10px 30px 0px rgb(158, 94, 94);
+    margin-top:50px;
+    padding: 10px;
+    transition: 1000ms;
+    
+}
+
+#continue{
+    
+    font-size: x-large;
+    text-decoration:underline;
+    text-decoration-color: rgb(110, 61, 61);
+    color: rgb(92, 16, 16); 
+    margin: auto;
+    
+
+}
+
+.gallery-btn{
+    background-color: rgb(223, 138, 154);
+    text-align: center;
+    border-radius: 15px;
+    color:rgb(135, 32, 21);
+    font-size: 40px;
+    text-decoration: none;
+    box-shadow:0px 10px 30px 0px rgb(158, 94, 94);
+    padding: 10px;
+    transition: 1000ms;
+    
+}
+
+.gift-btn{
+    background-color:  rgb(223, 138, 154);
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(135, 32, 21);
+    font-size: 40px;
+    text-decoration: none ;
+    box-shadow: 0px 10px 30px 0px rgb(158, 94, 94);
+    padding: 10px 20px;
+    transition: 1000ms;
+
+} 
+
+.gallery-btn:hover {
+    background-color: rgb(174, 67, 81);
+    color: rgb(46, 15, 7);
+    transform: translateY(-1.01rem);
+    transition: 400ms;
+    box-shadow: 0px 10px 30px 0px rgb(94, 22, 22); 
+
+
+}
+
+
+.click-btn:hover {
+    background-color: rgb(174, 67, 81);
+    color: rgb(46, 23, 10);
+    transform: translateY(-1.01rem);
+    transition: 400ms;
+    box-shadow: 0px 10px 30px 0px rgb(94, 22, 22);
+}
+
+.gift-btn:hover{
+    background-color: rgb(174, 67, 81);
+    color: rgb(44, 14, 6);
+    transform: translateY(-1.01rem);
+    transition: 400ms;
+    box-shadow: 0px 10px 30px 0px rgb(94, 22, 22);
+
+}
+ 
+/*lala.html*/
+
+img{
+    height: 300px;
+    width: 100%;
+    display: block;
+}
+
+.gallery{
+    text-align: center;
+    background-color: rgb(232, 186, 186);
+    padding: 10px;
+    font-family:cursive;
+    font-style: oblique;
+    color:azure;
+    border-style: solid;
+    max-width: 400px;
+    margin: 10px auto;
+    overflow: hidden;
+    
+    
+}
+
+#lala {
+    color: rgb(195, 94, 119);
+    text-align: center;
+}
+
+/*click.html*/
+
+#header3{
+
+    color:rgb(116, 8, 5);
+    text-align: center;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#terms-conditions{
+
+    text-align: center;
+    background-color: rgba(98, 47, 47, 0.538);
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 10px;
+    border-style:dotted;
+    font-size: 18px;
+    border-color: rgb(80, 20, 18);
+}
+
+
+li{
+    background-color: #fbe1e1;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgb(12, 12, 12);
+    display: flex;
+    align-items: center; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li::before {
+    content: '💘';
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+#reminder{
+    margin-top: 50px;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 2.5px;
+    word-spacing: 5px;
+    color:rgb(40, 17, 17);
+}
+
+#click-end{
+
+    text-align: center;
+    margin-top: 30px;
+    color:rgb(55, 10, 8);
+    font-size: 18px;
+}
+
+    /*gift*/
+
+#header4{
+    color:rgb(116, 8, 5);
+    text-align: center;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  
+#gift-text{
+
+    text-align: center;
+    background-color: rgba(98, 47, 47, 0.538);
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 10px;
+    border-style:dotted;
+    font-size: 18px;
+    border-color: rgb(80, 20, 18);
+}
+
+button{
+    
+    color:#8f2f2fa8;
+    margin: 20px;
+    
+}
+
+.gift-click{
+    text-align: center;
+}
+  
+#besi{
+    display: none;
+}
+
+
+
+

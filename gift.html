@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta charset="utf-8"><title>GIFT</title>
+         <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1 id="header4">HERE IS YOUR GIFT</h1>
+        <p id="gift-text">Before you see it, I'd like to explain why I struggled to create it even though it looks simple to draw. <br>
+            This is the first piece of vector art I've ever attempted, and to my surprise, it turned out to be more challenging than expected. <br>
+            It took me forever, and  I would have freehanded something better. Anyway , I hope you like it.
+        </p>
+        <div class="gift-click">
+          <button onclick="yourgift()">click to check your gift</button>
+        </div>
+        <img id="besi" src="./images/Besice-cream.svg" >
+        <script type="text/javascript">
+
+            function yourgift() {
+        
+                var img = document.getElementById('besi');
+                img.style.display = 'block';
+            }
+
+        </script>
+    </body>
+</html>
